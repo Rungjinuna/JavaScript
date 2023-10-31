@@ -8,3 +8,24 @@
     cursor: pointer;
 }
 
+.cell-row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    height: 40px;
+    border: 1px solid grey;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cell.header {
+    text-align: center;
+    background: #ddd;
+}
+
+.cell.header.active {
+    background: #04AB46;
+    color: white;
+}
